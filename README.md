@@ -16,6 +16,7 @@ A starter Angular1 HTML5 client app
   - `npm install gulp-cli -g`
   - `npm install bower -g`
   - `npm install`
+  - `bower install`
   - `gulp help`
     : show task outline and general help
   - `gulp serve`
