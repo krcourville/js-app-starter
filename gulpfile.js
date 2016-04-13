@@ -7,7 +7,6 @@ var
     templateCache = require('gulp-angular-templatecache'),
     less = require('gulp-less'),
     ngAnnotate = require('gulp-ng-annotate'),
-
     cfg = require('./gulpfile.config.js')
 ;
 
@@ -109,6 +108,7 @@ gulp.task('watch', function () {
     gulp.watch(cfg.appfiles, ['app-js']);
     gulp.watch(cfg.templates, ['templates']);
     gulp.watch(cfg.lessfiles, ['less']);
+    gulp.watch(cfg.index, ['copy']);
 
     watch(cfg.distfiles)
         .pipe(connect.reload());
