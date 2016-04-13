@@ -1,0 +1,29 @@
+{
+  "name": "js-app-starter",
+  "description": "A starter HTML5 client using gulp and livereload",
+  "main": "index.js",
+  "authors": [
+    "Ken Courville"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gulp",
+    "livereload"
+  ],
+  "homepage": "https://github.com/krcourville/js-app-starter",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3",
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}
