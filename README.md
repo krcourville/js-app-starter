@@ -10,13 +10,18 @@ A starter Angular1 HTML5 client app
  - Less
  - Ng Template Cache
  
-## Usage
- 
-  - clone or copy locally
-  - `npm install gulp-cli -g`
-  - `npm install bower -g`
+### Setup
+
+  - install Node JS (if not already installed)
+  - clone or copy this repo locally
+  - from a console in the local folder, run these commands
+  - `npm install gulp-cli -g` (if not already installed)
+  - `npm install bower -g` (if not already installed)
   - `npm install`
   - `bower install`
+  
+## Usage
+
   - `gulp help`
     : show task outline and general help
   - `gulp serve`
